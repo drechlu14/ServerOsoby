@@ -20,9 +20,24 @@ namespace ServerOsobyCreation
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
+
+            /*var client = new RestClient("");
+
+            var request = new RestRequest("getCatalog?token={token}", Method.POST);
+
+            request.AddParameter("token", "saga001", ParameterType.UrlSegment);
+
+            // request.AddUrlSegment("token", "saga001"); *
+
+            request.OnBeforeDeserialization = resp => { resp.ContentType = "application/json"; };
+
+            var queryResult = client.Execute(request); */
+
+            //Vypsat
         }
     }
 }

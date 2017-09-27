@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ServerOsobyCreation"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
+        Title="Evidence - dotazy na server" Height="350" Width="525">
+    <StackPanel>
+        <Label x:Name="DataFromServer" Content="Data ze serveru" FontSize="18" />
 
-      
 
-    </Grid>
+
+    </StackPanel>
 </Window>
